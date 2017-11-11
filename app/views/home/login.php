@@ -34,7 +34,7 @@
         <input type="submit" value="Login">
         <br/>
         <br/>
-        <a href="<?= LOGIN_REGISTER ?>"> Create account </a>
+        <a href="<?= LOGIN_REGISTER ?>"><font color="white"> Create account </a><font>
     </form>
 </div>
 
