@@ -27,7 +27,7 @@
                               name="description"
                               class="form-control"
                               rows="4"></textarea>
-                    
+
                 </div>
             </div>
             <div class="row">
@@ -52,7 +52,6 @@
                     <th>Subject</th>
                     <th>Description</th>
                     <th>Created Date</th>
-
                     <th></th>
                     <th></th>
                 </tr>
@@ -67,7 +66,6 @@
                         <td><?= $reminder['subject'] ?></td>
                         <td><?= $reminder['description'] ?></td>
                         <td><?= $reminder['createdDate'] ?></td>
-
                         <td><a href="<?= REMINDER_UPDATE . DS . $reminder['id']; ?>">Update</a></td>
                         <td><a href="<?= REMINDER_DELETE . DS . $reminder['id']; ?>">Remove</a></td>
                     </tr>

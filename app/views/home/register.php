@@ -34,9 +34,11 @@
 
 </html>
 <body> 
-    <p class="lead"> <?= date("F jS, Y"); ?> </p>
+  
+    <font color="white"> <p class="lead"> <?= date("F jS, Y"); ?> </p>
 
-    <h1> Create a new account!</h1>
+    <font color="white"> <h1> Create a new account!</h1> </a> 
+    
 
     <form method="post" action="<?= LOGIN_REGISTER ?>">
         Email:<br/>
@@ -51,6 +53,5 @@
     </form>
 </body>
 </html>
-
 <a href="<?= LOGIN_INDEX ?>"> <font color="white">Go to login page</a>
 <?php require_once '../app/views/templates/footer.php' ?>

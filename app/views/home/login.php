@@ -25,7 +25,7 @@
             margin: 3px 1px;
         }
     </style>
-    <h1>Please Login!</h1>
+    <font color="white"> <h1>Please Login!</h1>
     <form method ="post" action="<?= LOGIN_INDEX ?>">
         <label for ="username">Username:</label><br/>
         <input type="text" name="username" id="username"><br/>
@@ -38,4 +38,4 @@
     </form>
 </div>
 
-<?php require_once '../app/views/templates/footer.php' ?>
+<?php require_once '../app/views/templates/footerpublic.php' ?>
