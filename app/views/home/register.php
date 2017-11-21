@@ -54,4 +54,4 @@
 </body>
 </html>
 <a href="<?= LOGIN_INDEX ?>"> <font color="white">Go to login page</a>
-<?php require_once '../app/views/templates/footer.php' ?>
+<?php require_once '../app/views/templates/footerPublic.php' ?>

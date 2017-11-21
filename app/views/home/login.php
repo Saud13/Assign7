@@ -38,4 +38,4 @@
     </form>
 </div>
 
-<?php require_once '../app/views/templates/footerpublic.php' ?>
+<?php require_once '../app/views/templates/footerPublic.php' ?>

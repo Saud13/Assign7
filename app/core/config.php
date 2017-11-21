@@ -10,23 +10,26 @@ define('LIBS', ROOT . DS . 'lib');
 define('MODELS', ROOT . DS . 'models');
 define('VIEWS', ROOT . DS . 'views');
 define('CONTROLLERS', ROOT . DS . 'controllers');
-define('LOGS', ROOT . DS . 'logs');	
-define('FILES', ROOT . DS. 'files');
+define('LOGS', ROOT . DS . 'logs');
+define('FILES', ROOT . DS . 'files');
 
 
-define('HOME'           , '/119668300/public');
-define('LOGIN_REGISTER' , HOME . DS . 'login/register');
-define('LOGIN_INDEX'    , HOME . DS . 'login/index');
-define('LOG_OUT'        , HOME . DS . 'logout');
+define('HOME', '/119668300/public');
+define('LOGIN_REGISTER', HOME . DS . 'login/register');
+define('LOGIN_INDEX', HOME . DS . 'login/index');
+define('LOG_OUT', HOME . DS . 'logout');
 
 //REMINDER
 define('REMINDER_CREATE', HOME . DS . 'remind/create');
 define('REMINDER_UPDATE', HOME . DS . 'remind/update');
 define('REMINDER_DELETE', HOME . DS . 'remind/remove');
 
+//REPORT
+define('REPORT', HOME . DS . 'reports/attempts');
+
 // ---------------------  NEW FENIX DATABASE TABLE -------------------------
-define('DB_HOST',         '127.0.0.1');
-define('DB_USER',         'root'); 
-define('DB_PASS',         '');
-define('DB_DATABASE',     '119668300');
-define('DB_PORT',         '3306');
+define('DB_HOST', '127.0.0.1');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_DATABASE', '119668300');
+define('DB_PORT', '3306');
